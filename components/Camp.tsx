@@ -3,17 +3,12 @@ import Image from "next/image";
 
 interface CampProps {
   backgroundImage: string;
-  title: string;
-  subtitle: string;
-  peopleJoined: string;
+  title?: string;
+  subtitle?: string;
+  peopleJoined?: string;
 }
 
-const CampSite = ({
-  backgroundImage,
-  title,
-  subtitle,
-  peopleJoined,
-}: CampProps) => {
+const CampSite = ({ backgroundImage }: CampProps) => {
   return (
     <div
       className={` h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
