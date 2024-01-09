@@ -52,11 +52,11 @@ export const FEATURES = [
 export const FOOTER_LINKS = [
   {
     title: "Saznaj više",
-    links: ["O CoreWeb'u"],
+    links: ["O CoreWeb-u"],
   },
   {
     title: "Naša Zajednica",
-    links: ["https://www.hellohood.rs"],
+    links: ["https://www.hellohood.rs/"],
   },
 ];
 
@@ -71,10 +71,7 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: "Društvene mreže",
   links: [
-    "/facebook.svg",
-    "/instagram.svg",
-    "/twitter.svg",
-    "/youtube.svg",
-    "/wordpress.svg",
+    "https://www.instagram.com/coreweb_rs/",
+    "https://twitter.com/CoreWeb_2023",
   ],
 };
