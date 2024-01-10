@@ -1,54 +1,44 @@
 // NAVIGATION
 
 export const NAV_LINKS = [
-  { href: "/", key: "home", label: "Početna" },
-  { href: "/", key: "services", label: "Usluge" },
-  { href: "/", key: "pricing ", label: "Cene " },
-  { href: "/", key: "contact_us", label: "Kontakt" },
-];
-
-// CAMP SECTION
-
-export const PEOPLE_URL = [
-  "/person-1.png",
-  "/person-2.png",
-  "/person-3.png",
-  "/person-4.png",
+  { href: "#section1", key: "home", label: "Početna" },
+  { href: "#section4", key: "services", label: "Usluge" },
+  { href: "#footer", key: "contact_us", label: "Kontakt" },
 ];
 
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: "Real maps can be offline",
+    title: "Digitalni marketing",
     icon: "/map.svg",
     variant: "green",
     description:
-      "We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location",
+      "U svetu digitalnog poslovanja, efikasna strategija društvenog marketinga postaje ključna za izgradnju brenda i angažovanje ciljane publike na socijalnim mrežama. Naš stručni tim pruža inovativna rešenja koja će vašu kompaniju istaći na online sceni i ostvariti uspeh u digitalnom prostoru.",
   },
   {
-    title: "Set an adventure schedule",
+    title: "Social Media Marketing",
     icon: "/calendar.svg",
     variant: "green",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Naša agencija pruža efikasne strategije društvenog marketinga. Fokusiramo se na izgradnju brenda, angažovanje publike i stvaranje relevantnog sadržaja na ključnim društvenim mrežama. Postignite merljive rezultate i ostvarite snažnu online prisutnost uz našu stručnost.",
   },
   {
-    title: "Technology using augment reality",
+    title: "SEO Optimizacija",
     icon: "/tech.svg",
     variant: "green",
     description:
-      "Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection",
+      "U trci za visokim rangiranjem na pretraživačima, naša agencija je vaš ključ ka optimizaciji. Sa fokusom na SEO strategijama, analizi ključnih reči i tehničkoj optimizaciji, obezbeđujemo da vaša web stranica bude u vrhu rezultata pretrage. Postignite bolju vidljivost, povećajte organski saobraćaj i izgradite održivu online prisutnost uz naše SEO rešenje.",
   },
   {
-    title: "Many new locations every month",
+    title: "Kreiranje digitalnog sadržaja",
     icon: "/location.svg",
-    variant: "orange",
+    variant: "blue",
     description:
-      "Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing",
+      "Naša agencija je tu da unapredi vašu online priču kroz kreativno kreiranje digitalnog sadržaja. Bilo da je reč o privlačnim tekstovima, vizualno privlačnim grafikama ili dinamičnim multimedijalnim elementima, radimo sa vama kako bismo stvorili sadržaj koji angažuje i inspiriše ciljnu publiku. Sa fokusom na autentičnosti i relevantnosti.",
   },
 ];
 
-// FOOTER SECTION
+//FOOTER SECTION
 export const FOOTER_LINKS = [
   {
     title: "Saznaj više",
@@ -63,15 +53,23 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "Kontaktiraj nas",
   links: [
-    { label: "Admin Officer", value: "061 144 10 93" },
-    { label: "Email Officer", value: "coreweb.rs@gmail.com" },
+    { label: "Tel", value: "061 144 10 93" },
+    { label: "Email", value: "coreweb.rs@gmail.com" },
   ],
 };
 
 export const SOCIALS = {
   title: "Društvene mreže",
   links: [
-    "https://www.instagram.com/coreweb_rs/",
-    "https://twitter.com/CoreWeb_2023",
+    {
+      platform: "instagram",
+      link: "https://www.instagram.com/coreweb_rs/",
+      icon: "/instagram.svg",
+    },
+    {
+      platform: "twitter",
+      link: "https://twitter.com/CoreWeb_2023",
+      icon: "/twitter.svg",
+    },
   ],
 };

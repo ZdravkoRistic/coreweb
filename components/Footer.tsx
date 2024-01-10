@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="flexCenter mb-24">
+    <footer id="footer" className="flexCenter mb-24">
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
@@ -14,16 +14,29 @@ const Footer = () => {
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
               {FOOTER_LINKS.map((columns) => (
-                <FooterColumn title={columns.title}>
+                <FooterColumn title={columns.title} key={columns.title}>
                   <ul className="regular-14 flex flex-col gap-4 text-gray-30">
-                    {columns.links.map((link) => (
-                      <Link href="/" key={link}>
-                        {link}
-                      </Link>
+                    {columns.links.map((link, index) => (
+                      <li key={index}>
+                        {columns.title === "Naša Zajednica" ? (
+                          <a
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {link}
+                          </a>
+                        ) : (
+                          <Link href="/" key={link}>
+                            {link}
+                          </Link>
+                        )}
+                      </li>
                     ))}
                   </ul>
                 </FooterColumn>
               ))}
+
               <div className="flex flex-col gap-5">
                 <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                   {FOOTER_CONTACT_INFO.links.map((link) => (
@@ -40,17 +53,23 @@ const Footer = () => {
                   ))}
                 </FooterColumn>
               </div>
+
               <div className="flex flex-col gap-5">
                 <FooterColumn title={SOCIALS.title}>
                   <ul className="regular-14 flex gap-4 text-gray-30">
-                    {SOCIALS.links.map((link, index) => (
-                      <li key={index}>
+                    {SOCIALS.links.map((link) => (
+                      <li key={link.platform}>
                         <a
-                          href={link}
+                          href={link.link}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <Image src={link} alt="logo" width={24} height={24} />
+                          <Image
+                            src={link.icon}
+                            alt={`${link.platform} icon`}
+                            width={24}
+                            height={24}
+                          />
                         </a>
                       </li>
                     ))}

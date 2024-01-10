@@ -4,8 +4,9 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "CoreWeb",
-  description: "CoreWeb Agencija",
+  title: "CoreWeb - Digitalni i Društveni Medija Marketing",
+  description:
+    "CoreWeb Agencija - Specijalizovani za digitalni i društveni medija marketing.",
 };
 
 export default function RootLayout({
