@@ -53,7 +53,8 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "Kontaktiraj nas",
   links: [
-    { label: "Tel", value: "061 144 10 93" },
+    { label: "Kontakt tel", value: "061 144 10 93" },
+    { label: "Kontakt tel", value: "062 232 119" },
     { label: "Email", value: "coreweb.rs@gmail.com" },
   ],
 };
