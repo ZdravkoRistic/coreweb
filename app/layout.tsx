@@ -4,9 +4,9 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "CoreWeb - Digitalni i Društveni Medija Marketing",
+  title: "CoreWeb - Marketing Digitalni i Marketing na Društvenim Mrežama",
   description:
-    "CoreWeb Agencija - Specijalizovani za digitalni i društveni medija marketing.",
+    "CoreWeb Agencija - Specijalizovana za digitalni marketing  i marketing na društvenim mrežama , CoreWeb Agency - Specialized in digital and social media marketing. ",
 };
 
 export default function RootLayout({
