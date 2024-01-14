@@ -6,6 +6,7 @@ interface CampProps {
   subtitle?: string;
   peopleJoined?: string;
   src?: string;
+  className?: string;
 }
 
 const CampSite = ({ backgroundImage }: CampProps) => {
@@ -22,7 +23,7 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px] px-6">
         <CampSite backgroundImage="bg-bg-img-1" />
 
-        <CampSite backgroundImage="bg-bg-img-2" />
+        <CampSite backgroundImage="bg-bg-img-2" className="custom-images" />
       </div>
 
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
