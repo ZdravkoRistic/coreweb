@@ -24,7 +24,7 @@ const Guide = () => {
         </div>
       </div>
 
-      <div className="flexCenter max-container relative w-full">
+      <div className="flexCenter max-container relative w-full px-6">
         <div
           className="rounded-5xl"
           style={{
