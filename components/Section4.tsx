@@ -16,6 +16,7 @@ const Features = () => {
             width={10}
             height={10}
             className="feature-phone"
+            loading="lazy"
             style={{ width: "30%", height: "auto" }}
           />
         </div>

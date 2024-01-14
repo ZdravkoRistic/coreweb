@@ -12,7 +12,6 @@ const Hero = () => {
     backgroundPosition: "center",
     marginRight: "-28px",
     marginTop: "-60px",
-    opacity: 0.7,
   };
 
   return (

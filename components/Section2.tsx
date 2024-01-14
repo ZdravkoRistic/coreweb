@@ -38,6 +38,7 @@ const Camp = () => {
             alt="camp-2"
             width={186}
             height={219}
+            loading="lazy"
             className="camp-quote"
           />
         </div>
