@@ -24,7 +24,7 @@ const Footer = () => {
           </Link>
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
-              {FOOTER_LINKS.map((columns) => (
+              {/* {FOOTER_LINKS.map((columns) => (
                 <FooterColumn title={columns.title} key={columns.title}>
                   <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                     {columns.links.map((link, index) => (
@@ -46,6 +46,31 @@ const Footer = () => {
                     ))}
                   </ul>
                 </FooterColumn>
+              ))} */}
+
+              {FOOTER_LINKS.map((columns, columnIndex) => (
+                <div key={columnIndex}>
+                  <h2>{columns.title}</h2>
+                  <ul className="regular-14 flex flex-col gap-4 text-gray-30">
+                    {columns.links.map((link, linkIndex) => (
+                      <li key={linkIndex}>
+                        {columns.title === "Naša Zajednica" ? (
+                          <a
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {link}
+                          </a>
+                        ) : (
+                          <Link href="/" key={link}>
+                            {link}
+                          </Link>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               ))}
 
               <div className="flex flex-col gap-5">
