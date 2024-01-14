@@ -16,9 +16,14 @@ const Navbar = () => {
         <Image
           src="/coreweb-logo.png"
           alt="logo"
-          width={50}
-          height={20}
-          style={{ marginRight: "10px" }}
+          width={10}
+          height={10}
+          style={{
+            marginRight: "10px",
+            borderRadius: "50%",
+            width: "15%",
+            height: "auto",
+          }}
         />
         <p style={{ margin: "0" }}>CoreWeb AGENCY</p>
       </a>

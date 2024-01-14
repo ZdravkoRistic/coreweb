@@ -7,9 +7,20 @@ const Footer = () => {
   return (
     <footer id="footer" className="flexCenter mb-24">
       <div className="padding-container max-container flex w-full flex-col gap-14">
-        <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
+        <div className="flex flex-col items-start justify-center  md:flex-row">
           <Link href="/" className="mb-10">
-            <Image src="coreweb-logo.png" alt="logo" width={50} height={29} />
+            <Image
+              src="coreweb-logo.png"
+              alt="logo"
+              width={50}
+              height={29}
+              style={{
+                marginRight: "10px",
+                borderRadius: "50%",
+                width: "25%",
+                height: "auto",
+              }}
+            />
           </Link>
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">

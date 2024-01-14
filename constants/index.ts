@@ -10,31 +10,31 @@ export const NAV_LINKS = [
 export const FEATURES = [
   {
     title: "Digitalni marketing",
-    icon: "/map.svg",
+    icon: "/digital.svg",
     variant: "green",
     description:
       "U svetu digitalnog poslovanja, efikasna strategija društvenog marketinga postaje ključna za izgradnju brenda i angažovanje ciljane publike na socijalnim mrežama. Naš stručni tim pruža inovativna rešenja koja će vašu kompaniju istaći na online sceni i ostvariti uspeh u digitalnom prostoru.",
   },
   {
     title: "Social Media Marketing",
-    icon: "/calendar.svg",
+    icon: "/social.svg",
     variant: "green",
     description:
       "Naša agencija pruža efikasne strategije društvenog marketinga. Fokusiramo se na izgradnju brenda, angažovanje publike i stvaranje relevantnog sadržaja na ključnim društvenim mrežama. Postignite merljive rezultate i ostvarite snažnu online prisutnost uz našu stručnost.",
   },
   {
     title: "SEO Optimizacija",
-    icon: "/tech.svg",
+    icon: "/seo.svg",
     variant: "green",
     description:
       "U trci za visokim rangiranjem na pretraživačima, naša agencija je vaš ključ ka optimizaciji. Sa fokusom na SEO strategijama, analizi ključnih reči i tehničkoj optimizaciji, obezbeđujemo da vaša web stranica bude u vrhu rezultata pretrage. Postignite bolju vidljivost, povećajte organski saobraćaj i izgradite održivu online prisutnost uz naše SEO rešenje.",
   },
   {
-    title: "Kreiranje digitalnog sadržaja",
-    icon: "/location.svg",
+    title: "Izrada Web Sajta",
+    icon: "/web.svg",
     variant: "blue",
     description:
-      "Naša agencija je tu da unapredi vašu online priču kroz kreativno kreiranje digitalnog sadržaja. Bilo da je reč o privlačnim tekstovima, vizualno privlačnim grafikama ili dinamičnim multimedijalnim elementima, radimo sa vama kako bismo stvorili sadržaj koji angažuje i inspiriše ciljnu publiku. Sa fokusom na autentičnosti i relevantnosti.",
+      "Mi kreiramo veb sajtove kodiranjem od nule. Vaša web stranica je ključna komponenta vašeg poslovanja i marketinške strategije. To je onlajn segment vašeg brenda i pruža virtuelnu prezentaciju vašeg poslovanja za sve posetioce! Pravimo web-sajtove prilagođene mobilnim uređajima, omogućavajući našim klijentima da budu prisutni na svim uređajima, zadržavajući potpunu funkcionalnost i estetiku!",
   },
 ];
 
@@ -45,7 +45,7 @@ export const FOOTER_LINKS = [
     links: ["O CoreWeb-u"],
   },
   {
-    title: "Naša Zajednica",
+    title: "Naši Partneri",
     links: ["https://www.hellohood.rs/"],
   },
 ];
@@ -53,7 +53,7 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "Kontaktiraj nas",
   links: [
-    { label: "Kontakt tel", value: "061 144 10 93" },
+    { label: "Kontakt telephone", value: "061 144 10 93" },
     { label: "Kontakt tel", value: "062 232 119" },
     { label: "Email", value: "coreweb.rs@gmail.com" },
   ],
