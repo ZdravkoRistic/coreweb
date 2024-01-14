@@ -50,11 +50,11 @@ const Footer = () => {
 
               {FOOTER_LINKS.map((columns, columnIndex) => (
                 <div key={columnIndex}>
-                  <h2>{columns.title}</h2>
-                  <ul className="regular-14 flex flex-col gap-4 text-gray-800">
+                  <h2 className="font-bold">{columns.title}</h2>
+                  <ul className="regular-14 flex flex-col gap-4 text-gray-800 ">
                     {columns.links.map((link, linkIndex) => (
                       <li key={linkIndex}>
-                        {columns.title === "Naša Zajednica" ? (
+                        {columns.title === "Naši Partneri" ? (
                           <a
                             href={link}
                             target="_blank"

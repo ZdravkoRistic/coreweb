@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <section
       id="section1"
-      className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row lg:mb-[50px]"
+      className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row lg:mb-[10px]"
     >
       <div style={imageStyles} />
 
