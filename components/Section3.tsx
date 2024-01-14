@@ -7,7 +7,7 @@ const Guide = () => {
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
             Kvalitet testiran na konkurenciji
           </h2>
-          <p className="regular-16 text-gray-30 xl:max-w-[520px]">
+          <p className="regular-16 text-gray-800 xl:max-w-[520px]">
             U svetu digitalnog i socijalnog marketinga, naša posvećenost
             kvalitetu i inovacijama odražava se kroz širok spektar usluga koje
             smo stvorili kako bismo zadovoljili potrebe kako naših internih

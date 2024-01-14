@@ -51,7 +51,7 @@ const Footer = () => {
               {FOOTER_LINKS.map((columns, columnIndex) => (
                 <div key={columnIndex}>
                   <h2>{columns.title}</h2>
-                  <ul className="regular-14 flex flex-col gap-4 text-gray-30">
+                  <ul className="regular-14 flex flex-col gap-4 text-gray-800">
                     {columns.links.map((link, linkIndex) => (
                       <li key={linkIndex}>
                         {columns.title === "Naša Zajednica" ? (
@@ -92,7 +92,7 @@ const Footer = () => {
 
               <div className="flex flex-col gap-5">
                 <FooterColumn title={SOCIALS.title}>
-                  <ul className="regular-14 flex gap-4 text-gray-30">
+                  <ul className="regular-14 flex gap-4 text-gray-800">
                     {SOCIALS.links.map((link) => (
                       <li key={link.platform}>
                         <a
@@ -117,7 +117,7 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30">
+        <p className="regular-14 w-full text-center text-gray-800">
           2024 CoreWeb | All rights reserved
         </p>
       </div>

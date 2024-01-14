@@ -23,7 +23,7 @@ const Hero = () => {
 
       <div className="relative z-20 flex flex-col  flex-1 xl:w-1/2">
         <h1 className="bold-52 lg:bold-88">CoreWeb AGENCY</h1>
-        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
+        <p className="regular-16 mt-6 text-gray-800 xl:max-w-[520px]">
           Digitalni mediji su nezaobilazan deo savremenog poslovnog sveta, a mi
           smo ponosni na to što se posebno ističemo u ovom dinamičnom okruženju.
           Naša stručnost u oblasti digitalnih medija predstavlja našu ključnu

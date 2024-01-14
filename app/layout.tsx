@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Head from "next/head";
 import "./globals.css";
 import type { Metadata } from "next";
 
@@ -16,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <meta name="theme-color" content="#317EFB" />
+      </Head>
       <body>
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
