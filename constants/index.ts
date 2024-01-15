@@ -53,7 +53,7 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "Kontaktiraj nas",
   links: [
-    { label: "Kontakt telephone", value: "061 144 10 93" },
+    { label: "Kontakt tel`", value: "061 144 10 93" },
     { label: "Kontakt tel", value: "062 232 119" },
     { label: "Email", value: "coreweb.rs@gmail.com" },
   ],
@@ -71,6 +71,11 @@ export const SOCIALS = {
       platform: "twitter",
       link: "https://twitter.com/CoreWeb_2023",
       icon: "/twitter.svg",
+    },
+    {
+      platform: "linkedin",
+      link: "https://www.linkedin.com/company/coreweb-2023",
+      icon: "/linkedin.svg",
     },
   ],
 };
