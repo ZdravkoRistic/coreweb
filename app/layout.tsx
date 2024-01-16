@@ -6,9 +6,9 @@ import type { Metadata } from "next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
-  title: "CoreWeb - Digitalni Marketing | Izrada Web Sajtova",
+  title: "QAZA - Digitalni Marketing | Konsalting",
   description:
-    "CoreWeb Agencija - Specijalizovana za digitalni marketing  i marketing na društvenim mrežama kao i izrada web sajtova, CoreWeb Agency - Specialized in digital and social media marketing as well as creating websites. ",
+    "QAZA Agencija - Specijalizovana za digitalni marketing  i marketing na društvenim mrežama kao i izrada web sajtova, CoreWeb Agency - Specialized in digital and social media marketing as well as creating websites. ",
 };
 
 export default function RootLayout({

@@ -9,7 +9,7 @@ export const NAV_LINKS = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: "Digitalni marketing",
+    title: "Consulting & Digitalni marketing",
     icon: "/digital.svg",
     variant: "green",
     description:
@@ -53,8 +53,7 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "Kontaktiraj nas",
   links: [
-    { label: "Kontakt tel`", value: "061 144 10 93" },
-    { label: "Kontakt tel", value: "062 232 119" },
+    { label: "Kontakt Osoba - Zdravko Ristić", value: "062 232 119" },
     { label: "Email", value: "coreweb.rs@gmail.com" },
   ],
 };

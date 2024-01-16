@@ -25,7 +25,7 @@ const Navbar = () => {
             height: "auto",
           }}
         />
-        <p style={{ margin: "0" }}>CoreWeb AGENCY</p>
+        <p style={{ margin: "0" }}>QAZA AGENCY</p>
       </a>
 
       <ul className="flex gap-4">

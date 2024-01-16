@@ -59,7 +59,7 @@ const Hero = () => {
   return (
     <section id="section1" className="custom-section">
       <div className="custom-image">
-        <h1 className="custom-heading">CoreWeb AGENCY</h1>
+        <h1 className="custom-heading">QAZA AGENCY</h1>
         <p className="custom-paragraph">
           Digitalni mediji su nezaobilazan deo savremenog poslovnog sveta, a mi
           smo ponosni na to što se posebno ističemo u ovom dinamičnom okruženju.
@@ -78,7 +78,7 @@ const Hero = () => {
       </div>
 
       <div className="additional-content"></div>
-      <img src="/slika1.png" alt="CoreWeb AGENCY" className="custom-images" />
+      <img src="/slika1.png" alt="Qaza AGENCY" className="custom-images" />
     </section>
   );
 };
