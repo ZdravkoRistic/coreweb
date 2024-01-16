@@ -53,7 +53,7 @@ const Footer = () => {
                   <ul className="regular-16 flex flex-col gap-4 text-gray-900 py-6 ">
                     {columns.links.map((link, linkIndex) => (
                       <li key={linkIndex}>
-                        {columns.title === "Naši Partneri" ? (
+                        {columns.title === "NAŠI PARTNERI" ? (
                           <a
                             href={link}
                             target="_blank"
@@ -81,9 +81,7 @@ const Footer = () => {
                       className="flex gap-4 md:flex-col lg:flex-row "
                     >
                       <p className="whitespace-nowrap">{link.label}</p>
-                      <p className="medium-14 whitespace-nowrap text-blue-70">
-                        {link.value}
-                      </p>
+                      <p className="medium-16 font-bold  ">{link.value}</p>
                     </Link>
                   ))}
                 </FooterColumn>
