@@ -41,40 +41,49 @@ export const FEATURES = [
 //FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: "Saznaj više",
-    links: ["O QAZA-i"],
+    title: "O NAMA QAZA",
+    links: ["PIB:114079235", "MB:67308506"],
   },
   {
-    title: "Naši Partneri",
-    links: ["https://www.hellohood.rs/"],
+    title: "NAŠI PARTNERI",
+    links: ["https://www.hellohood.rs/", "https://www.coreweb.rs/"],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: "Kontaktiraj nas",
+  title: "STUPITE U KONTAKT",
   links: [
-    { label: "Tel", value: "062 232 119" },
-    { label: "Email", value: "qaza.co.rs@gmail.com" },
+    { label: "Kontakt telefon:", value: "062 232 119" },
+    {
+      label: "Pišite nam na Email:",
+      value: "qaza.co.rs@gmail.com",
+    },
   ],
 };
 
 export const SOCIALS = {
-  title: "Društvene mreže",
+  title: "DRUŠTVENE MREŽE",
   links: [
     {
       platform: "instagram",
       link: "https://www.instagram.com/coreweb_rs/",
       icon: "/instagram.svg",
     },
-    {
-      platform: "twitter",
-      link: "https://twitter.com/CoreWeb_2023",
-      icon: "/twitter.svg",
-    },
+
     {
       platform: "linkedin",
       link: "https://www.linkedin.com/company/qaza",
       icon: "/linkedin.svg",
+    },
+    {
+      platform: "twitter",
+      link: "https://twitter.com/?lang=sr",
+      icon: "/twitter.svg",
+    },
+    {
+      platform: "youtube",
+      link: "https://www.youtube.com",
+      icon: "/youtube.svg",
     },
   ],
 };

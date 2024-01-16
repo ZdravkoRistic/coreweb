@@ -14,14 +14,14 @@ const Navbar = () => {
         }}
       >
         <Image
-          src="/coreweb-logo.png"
+          src="/logo-crna.png"
           alt="logo"
           width={10}
           height={10}
           style={{
-            marginRight: "10px",
+            marginRight: "15px",
             borderRadius: "50%",
-            width: "15%",
+            width: "12%",
             height: "auto",
           }}
         />

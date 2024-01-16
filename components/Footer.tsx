@@ -7,21 +7,20 @@ const Footer = () => {
   return (
     <footer id="footer" className="flexCenter mb-24">
       <div className="padding-container max-container flex w-full flex-col gap-14">
+        <div className="flex ">
+          <Image
+            src="/logo-crna.png"
+            alt="logo"
+            width={0}
+            height={0}
+            style={{
+              borderRadius: "50%",
+              width: "6%",
+              height: "auto",
+            }}
+          />
+        </div>
         <div className="flex flex-col items-start justify-center  md:flex-row">
-          <Link href="/" className="mb-10">
-            <Image
-              src="coreweb-logo.png"
-              alt="logo"
-              width={50}
-              height={29}
-              style={{
-                marginRight: "10px",
-                borderRadius: "50%",
-                width: "25%",
-                height: "auto",
-              }}
-            />
-          </Link>
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
               {/* {FOOTER_LINKS.map((columns) => (
@@ -51,7 +50,7 @@ const Footer = () => {
               {FOOTER_LINKS.map((columns, columnIndex) => (
                 <div key={columnIndex}>
                   <h2 className="font-bold">{columns.title}</h2>
-                  <ul className="regular-14 flex flex-col gap-4 text-gray-800 ">
+                  <ul className="regular-16 flex flex-col gap-4 text-gray-900 py-6 ">
                     {columns.links.map((link, linkIndex) => (
                       <li key={linkIndex}>
                         {columns.title === "Naši Partneri" ? (
@@ -79,7 +78,7 @@ const Footer = () => {
                     <Link
                       href="/"
                       key={link.label}
-                      className="flex gap-4 md:flex-col lg:flex-row"
+                      className="flex gap-4 md:flex-col lg:flex-row "
                     >
                       <p className="whitespace-nowrap">{link.label}</p>
                       <p className="medium-14 whitespace-nowrap text-blue-70">
@@ -92,7 +91,7 @@ const Footer = () => {
 
               <div className="flex flex-col gap-5">
                 <FooterColumn title={SOCIALS.title}>
-                  <ul className="regular-14 flex gap-4 text-gray-800">
+                  <ul className="regular-14 flex gap-4 text-gray-800 ">
                     {SOCIALS.links.map((link) => (
                       <li key={link.platform}>
                         <a
@@ -117,7 +116,23 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-800">
+        {/* <Image
+          src="/logo-crna.png"
+          alt="logo"
+          width={10}
+          height={10}
+          style={{
+            marginRight: "15px",
+            borderRadius: "50%",
+            width: "12%",
+            height: "auto",
+          }}
+        />
+        <p className="font-boldregular-14 w-full text-center text-gray-800">
+          2024 QAZA | All rights reserved
+        </p> */}
+
+        <p className="font-boldregular-14 w-full text-center text-gray-800">
           2024 QAZA | All rights reserved
         </p>
       </div>
