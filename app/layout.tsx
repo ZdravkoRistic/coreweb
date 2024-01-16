@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Head from "next/head";
 import "./globals.css";
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "CoreWeb - Digitalni Marketing | Izrada Web Sajtova",
@@ -23,7 +24,9 @@ export default function RootLayout({
       <body>
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
+
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
