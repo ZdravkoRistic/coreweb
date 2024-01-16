@@ -8,7 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata: Metadata = {
   title: "QAZA - Digitalni Marketing | Konsalting",
   description:
-    "QAZA Agencija - Specijalizovana za digitalni marketing  i marketing na društvenim mrežama kao i izrada web sajtova, CoreWeb Agency - Specialized in digital and social media marketing as well as creating websites. ",
+    "QAZA Agencija - Specijalizovana za digitalni marketing  i marketing na društvenim mrežama kao i izrada web sajtova,vođenje društvenih mreža,SEO optimizacije,ISO Standarda, QAZA Agency - Specialized in digital and social media marketing as well as creating websites,management of social networks, SEO optimization, ISO Standards. ",
 };
 
 export default function RootLayout({

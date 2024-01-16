@@ -118,7 +118,7 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-800">
-          2024 CoreWeb | All rights reserved
+          2024 QAZA | All rights reserved
         </p>
       </div>
     </footer>

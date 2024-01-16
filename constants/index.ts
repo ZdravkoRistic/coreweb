@@ -42,7 +42,7 @@ export const FEATURES = [
 export const FOOTER_LINKS = [
   {
     title: "Saznaj više",
-    links: ["O CoreWeb-u"],
+    links: ["O QAZA-i"],
   },
   {
     title: "Naši Partneri",
@@ -53,8 +53,8 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "Kontaktiraj nas",
   links: [
-    { label: "Kontakt Osoba - Zdravko Ristić", value: "062 232 119" },
-    { label: "Email", value: "coreweb.rs@gmail.com" },
+    { label: "Tel", value: "062 232 119" },
+    { label: "Email", value: "qaza.co.rs@gmail.com" },
   ],
 };
 
@@ -73,7 +73,7 @@ export const SOCIALS = {
     },
     {
       platform: "linkedin",
-      link: "https://www.linkedin.com/company/coreweb-2023",
+      link: "https://www.linkedin.com/company/qaza",
       icon: "/linkedin.svg",
     },
   ],
