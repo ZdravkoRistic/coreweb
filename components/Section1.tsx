@@ -38,7 +38,7 @@ const Hero = () => {
           </Link>
 
           <Button
-            className="md:hidden"
+            className="custom-images"
             type="button"
             title="+381 62 232 119"
             icon="/phone.png"
