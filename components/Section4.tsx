@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { FEATURES } from "@/constants";
-import { features } from "process";
 
 const Features = () => {
   return (

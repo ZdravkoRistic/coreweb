@@ -23,30 +23,6 @@ const Footer = () => {
         <div className="flex flex-col items-start justify-center  md:flex-row">
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
-              {/* {FOOTER_LINKS.map((columns) => (
-                <FooterColumn title={columns.title} key={columns.title}>
-                  <ul className="regular-14 flex flex-col gap-4 text-gray-30">
-                    {columns.links.map((link, index) => (
-                      <li key={index}>
-                        {columns.title === "Naša Zajednica" ? (
-                          <a
-                            href={link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {link}
-                          </a>
-                        ) : (
-                          <Link href="/" key={link}>
-                            {link}
-                          </Link>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                </FooterColumn>
-              ))} */}
-
               {FOOTER_LINKS.map((columns, columnIndex) => (
                 <div key={columnIndex}>
                   <h2 className="font-bold">{columns.title}</h2>
@@ -114,21 +90,6 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        {/* <Image
-          src="/logo-crna.png"
-          alt="logo"
-          width={10}
-          height={10}
-          style={{
-            marginRight: "15px",
-            borderRadius: "50%",
-            width: "12%",
-            height: "auto",
-          }}
-        />
-        <p className="font-boldregular-14 w-full text-center text-gray-800">
-          2024 QAZA | All rights reserved
-        </p> */}
 
         <p className="font-boldregular-14 w-full text-center text-gray-800">
           2024 QAZA | All rights reserved

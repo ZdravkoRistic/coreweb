@@ -1,6 +1,5 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import Head from "next/head";
 import "./globals.css";
 import type { Metadata } from "next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -17,14 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <Head>
-        <meta name="theme-color" content="#317EFB" />
-      </Head>
+    <html>
       <body>
         <Navbar />
-        <main className="relative overflow-hidden">{children}</main>
-
+        <div className="relative overflow-hidden">{children}</div>
         <Footer />
         <SpeedInsights />
       </body>

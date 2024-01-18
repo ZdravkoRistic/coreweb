@@ -1,11 +1,5 @@
 // NAVIGATION
 
-export const NAV_LINKS = [
-  { href: "#section1", key: "home", label: "Početna" },
-  { href: "#section4", key: "services", label: "Usluge" },
-  { href: "#footer", key: "contact_us", label: "Kontakt" },
-];
-
 // FEATURES SECTION
 export const FEATURES = [
   {
