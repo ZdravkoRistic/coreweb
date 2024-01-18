@@ -60,7 +60,7 @@ export const SOCIALS = {
   links: [
     {
       platform: "instagram",
-      link: "https://www.instagram.com/coreweb_rs/",
+      link: "https://www.instagram.com/qaza_2023?igsh=dDN6ZWVxczdteGE=",
       icon: "/instagram.svg",
     },
 
