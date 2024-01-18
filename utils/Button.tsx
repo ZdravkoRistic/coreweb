@@ -7,6 +7,7 @@ type ButtonProps = {
   variant: string;
   full?: boolean;
   iconStyle?: React.CSSProperties;
+  className?: string;
 };
 
 const Button = ({
