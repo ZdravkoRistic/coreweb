@@ -42,6 +42,9 @@
   .mobile-services {
     padding: 2rem;
   }
+  .picture-height {
+    height: 20%;
+  }
 }
 
 /* @media (max-width: 375px) {

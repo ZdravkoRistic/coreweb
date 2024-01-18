@@ -11,7 +11,22 @@ const ContactPage = () => {
   return (
     <div id="contact" className="mobile-contact">
       <Navbar />
-      {/* <Image src="" alt="logo" width={1440} height={500} /> !!TODO */}
+      <div
+        className="max-container picture-height"
+        style={{
+          position: "relative",
+          width: "100%",
+          height: "40vh",
+          overflow: "hidden",
+        }}
+      >
+        <img
+          src="/contact.jpg"
+          alt="contact"
+          loading="lazy"
+          style={{ objectFit: "cover", width: "100%", height: "100%" }}
+        />
+      </div>
       <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-40">
         <div className="flex">
           <div className="mx-20 custom-images ">
