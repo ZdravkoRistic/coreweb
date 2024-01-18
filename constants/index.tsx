@@ -47,7 +47,7 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "STUPITE U KONTAKT",
   links: [
-    { label: "Kontakt telefon:", value: "062 232 119" },
+    { label: "Kontakt telefon:", value: "+ 381 62 232 119" },
     {
       label: "Pišite nam na Email:",
       value: "qaza.co.rs@gmail.com",
