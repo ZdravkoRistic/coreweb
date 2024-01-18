@@ -8,9 +8,10 @@ import EmailForm from "../utils/Form";
 
 const ContactPage = () => {
   return (
-    <div id="contact" className="mobile-navbar-contact-page-height">
+    <div id="contact" className="mobile-contact">
       <Navbar />
-      <section className="flexCenter relative  flex-col py-10 lg:mb-10 lg:py-20">
+      {/* <section className="flexCenter relative  flex-col py-10 lg:mb-10 lg:py-20"> */}
+      <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-40">
         <div className="flex">
           <div className="mx-20 custom-images ">
             <h1 className="regular-40 bold-32 mr-10 mb-10">

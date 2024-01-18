@@ -35,8 +35,11 @@
     padding: 0.2rem;
   }
   .mobile-form {
-    width: 80%;
-    padding-left: 2rem;
+    width: 100%;
+    /* padding-left: 0rem; */
     margin-bottom: 10rem;
+  }
+  .mobile-services {
+    padding: 2rem;
   }
 }

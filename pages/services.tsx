@@ -10,7 +10,7 @@ const ServicePage = () => {
       <Navbar />
       <section
         id="contact"
-        className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-40"
+        className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-40 mobile-services "
       >
         <h1 className="flex flexCenter py-4 regular-40 bold-40 ">
           Stranica je u izradi
