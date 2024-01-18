@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../app/globals.css";
@@ -10,7 +11,7 @@ const ContactPage = () => {
   return (
     <div id="contact" className="mobile-contact">
       <Navbar />
-      {/* <section className="flexCenter relative  flex-col py-10 lg:mb-10 lg:py-20"> */}
+      {/* <Image src="" alt="logo" width={1440} height={500} /> !!TODO */}
       <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-40">
         <div className="flex">
           <div className="mx-20 custom-images ">

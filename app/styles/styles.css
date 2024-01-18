@@ -43,3 +43,17 @@
     padding: 2rem;
   }
 }
+
+/* @media (max-width: 375px) {
+  .mobile-four {
+    padding: 1rem;
+    width: 80%;
+    /* font-size: 0.8em; */
+/* } */
+/* .mobile-padding-four {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  } */
+/* }  */

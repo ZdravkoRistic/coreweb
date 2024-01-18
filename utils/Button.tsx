@@ -20,7 +20,7 @@ const Button = ({
 }: ButtonProps) => {
   return (
     <button
-      className={`flexCenter gap-3 rounded-full mobile-button  border ${variant} ${
+      className={`flexCenter gap-3 rounded-full mobile-button  border mobile-four  ${variant} ${
         full && "w-full"
       }`}
       type={type}
@@ -34,7 +34,7 @@ const Button = ({
           style={iconStyle}
         />
       )}
-      <label className="bold-16 whitespace-nowrap cursor-pointer mobile-padding">
+      <label className="bold-16 whitespace-nowrap cursor-pointer mobile-padding mobile-padding-four  ">
         {title}
       </label>
     </button>
