@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import "../app/globals.css";
 import "../app/styles/styles.css";
 
-const ContactPage = () => {
+const ServicePage = () => {
   return (
     <div>
       <Navbar />
@@ -71,4 +71,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default ServicePage;

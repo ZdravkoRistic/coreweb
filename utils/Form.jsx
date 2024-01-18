@@ -3,7 +3,7 @@ import "../app/styles/styles.css";
 
 const EmailForm = () => {
   return (
-    <section className=" flex flex-col justify-center items-center max-container">
+    <section className=" flex flex-col justify-center items-center max-container mobile-form">
       <p className="text-center mb-1   bold-18 ">ZA SVE INFORMACIJE</p>
       <p className="text-center text-2xl  bold-20">KONTAKTIRAJTE NAS</p>
       <div className="flex justify-center items-center">

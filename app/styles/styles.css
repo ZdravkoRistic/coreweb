@@ -26,4 +26,17 @@
   .custom-section {
     padding-bottom: 0.5rem;
   }
+
+  .mobile-button {
+    width: 80%;
+    font-size: 0.8em;
+  }
+  .mobile-padding {
+    padding: 0.2rem;
+  }
+  .mobile-form {
+    width: 80%;
+    padding-left: 2rem;
+    margin-bottom: 10rem;
+  }
 }

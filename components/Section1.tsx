@@ -25,7 +25,7 @@ const Hero = () => {
           online prisustva ili inoviranju digitalnih rešenja, naša prednost je u
           posvećenosti izvrsnosti i pažljivom sagledavanju potreba klijenata.
         </p>
-        <div className="flex">
+        <div className="flex  ">
           <Link href="/contact">
             <Button
               type="button"
@@ -38,7 +38,6 @@ const Hero = () => {
           </Link>
 
           <Button
-            className="custom-images"
             type="button"
             title="+381 62 232 119"
             icon="/phone.png"
