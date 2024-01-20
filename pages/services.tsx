@@ -12,11 +12,17 @@ const ServicePage = () => {
       <Navbar />
       <section
         id="contact"
-        className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-40 mobile-services "
+        className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-40 mobile-services  "
+        style={{
+          backgroundImage: "url(' /bacground-services.png ')",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
       >
         <div className="max-container padding-container relative w-full flex justify-end">
           <div className="z-20 flex w-full flex-col lg:w-60%">
-            <div className="relative">
+            <div className="relative ">
               <h2 className="bold-40 lg:bold-64 text-center">Naše Usluge</h2>
             </div>
             <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-20">

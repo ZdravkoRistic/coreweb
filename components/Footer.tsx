@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="flexCenter mb-24">
-      <div className="padding-container max-container flex w-full flex-col gap-14">
+    <footer id="footer" className="flexCenter mb-24  ">
+      <div className="padding-container max-container flex w-full flex-col gap-14 ">
         <div className="flex ">
           <Image
             src="/logo-crna.png"
@@ -91,7 +91,7 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
 
-        <p className="font-boldregular-14 w-full text-center text-gray-800">
+        <p className="font-boldregular-14 w-full text-center text-gray-800 ">
           2024 QAZA | All rights reserved
         </p>
       </div>
