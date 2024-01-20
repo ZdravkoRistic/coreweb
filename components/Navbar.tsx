@@ -46,9 +46,7 @@ const Navbar: React.FC = () => {
             }}
           />
 
-          <p className="m-0 regular-16 ">
-            QAZA AGENCY ZA KONSALTING I MENADŽMENT
-          </p>
+          <p className="m-0 regular-16 ">QAZA AGENCY</p>
         </div>
       </Link>
 
