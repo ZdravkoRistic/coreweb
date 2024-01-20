@@ -11,19 +11,20 @@ const Hero = () => {
       <div className="custom-image">
         <h1 className="custom-heading">QAZA AGENCY</h1>
         <p className="custom-paragraph mb-5">
-          Digitalni mediji su nezaobilazan deo savremenog poslovnog sveta, a mi
-          smo ponosni na to što se posebno ističemo u ovom dinamičnom okruženju.
-          Naša stručnost u oblasti digitalnih medija predstavlja našu ključnu
-          snagu. Kroz kreativnost i inovacije, naš tim ne samo da prati, već i
-          postavlja trendove, stvarajući jedinstvene narative za naše klijente.
+          Naše konsultantske usluge u oblasti digitalnih medija predstavlja
+          ključnu podršku klijentima u savladavanju izazova savremenog poslovnog
+          sveta. Fokusirani na pružanje stručnih saveta, pomognemo
+          organizacijama da optimizuju svoje digitalne strategije. Kroz analize
+          i inovativne pristupe, stvaramo konkretne planove koji omogućavaju
+          klijentima da ostvare održiv uspeh u digitalnom okruženju.
           <br />
           <br />
-          Naša agilnost u prilagođavanju strategija komunikacije specifičnim
-          potrebama naših klijenata na mreži i društvenim medijima čini nas
-          pouzdanim partnerom u izgradnji snažnog digitalnog prisustva. Bez
-          obzira da li se radi o „marketingu na društvenim mrežama“, unapređenju
-          online prisustva ili inoviranju digitalnih rešenja, naša prednost je u
-          posvećenosti izvrsnosti i pažljivom sagledavanju potreba klijenata.
+          Upravljanje digitalnim resursima zahteva agilan i strateški pristup.
+          Naš menadžerski tim posvećen je vođenju online prisustva i inoviranju
+          digitalnih rešenja. Prilagodljivi smo specifičnim potrebama klijenata,
+          pružajući podršku u postizanju poslovnih ciljeva. Kroz precizno
+          planiranje i pažljivo upravljanje resursima, obezbeđujemo efikasnost i
+          uspeh na digitalnom tržištu.
         </p>
         <div className="flex  ">
           <Link href="/contact">

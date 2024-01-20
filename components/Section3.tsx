@@ -5,21 +5,35 @@ const Guide = () => {
         <p className="uppercase regular-18 -mt-1 mb-3">MI SMO TU ZA VAS</p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
-            Kvalitet testiran na konkurenciji
+            STRUČNOST KOJA POKREĆE VAŠ BIZNIS
           </h2>
-          <p className="regular-16 text-gray-800 xl:max-w-[520px]">
-            U svetu digitalnog i socijalnog marketinga, naša posvećenost
-            kvalitetu i inovacijama odražava se kroz širok spektar usluga koje
-            smo stvorili kako bismo zadovoljili potrebe kako naših internih
-            procesa, tako i zahteva naših klijenata. Naša stručnost i iskustvo
-            omogućavaju nam da kreiramo usluge koje nisu samo relevantne, već i
-            prepoznatljive po svojoj efikasnosti u savladavanju izazova na
-            konkurentnom tržištu. Nastojimo da ostanemo korak ispred, pa tako
-            naša usluga prolazi kroz testove konkurencije i tržišnih dinamika,
-            postavljajući standarde koji nadmašuju očekivanja. Uz pažljiv
-            pristup i fokus na individualnim potrebama, sigurni smo da naše
-            usluge predstavljaju ne samo rešenje, već i ključ za uspeh u
-            digitalnom i socijalnom marketingu.
+          <p className="regular-16 text-gray-900 xl:max-w-[720px]">
+            Naša agencija se ističe kao posvećen partner, težimo prevazilaženju
+            očekivanja naših poslovnih partnera. Sa impresivnim referencama u
+            različitim sektorima, od malih preduzeća do velikih kompanija,
+            instituta, fakulteta i ministarstava, stalno radimo na unapređenju
+            poslovnih partnera. Naš tim, koji se dokazao na projektima u
+            privredi, vladi, institutima i fakultetima, stoji vam na
+            raspolaganju.
+            <br />
+            <br />
+            Naša široka paleta usluga obuhvata implementaciju i unapređenje
+            različitih sistema menadžmenta, uključujući QMS, EMS, ISMS, i druge,
+            vođene stručnjacima iz oblasti poslovanja. Pružamo podršku u oceni
+            usaglašenosti za energetiku, industriju, IKT, interne standarde, kao
+            i praćenje i poboljšanje Intelektualnog kapitala. Posebno se
+            ističemo u oblasti menadžmenta inovacija, kontrole kvaliteta,
+            obezbeđenja kvaliteta i integracije menadžment sistema.
+            <br />
+            <br />
+            Fokusirani smo na digitalni marketing, izradu biznis planova i
+            strateško vođenje preduzeća, pružajući sveobuhvatno rešenje za
+            organizacije koje teže vrhunskom poslovanju. Naša jasna vizija je
+            podrška kvalitetnim i dinamičnim organizacijama. Strategija agencije
+            usmerena je na podizanje kvaliteta poslovanja, menadžmenta,
+            bezbednosti IKT, infrastrukture kvaliteta i drugih menadžmenata u
+            organizacijama naših partnera. Vaš uspeh je naša predanost –
+            očekujemo vašu suradnju!
           </p>
         </div>
       </div>

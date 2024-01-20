@@ -24,7 +24,7 @@ const Features = () => {
           <div className="relative">
             <h2 className="bold-40 lg:bold-64">Naše Usluge</h2>
           </div>
-          <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
+          <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20 ">
             {FEATURES.map((feature) => (
               <FeatureItem
                 key={feature.title}

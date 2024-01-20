@@ -41,35 +41,31 @@ const Navbar: React.FC = () => {
             style={{
               marginRight: "15px",
               borderRadius: "50%",
-              width: "12%",
+              width: "10%",
               height: "auto",
             }}
           />
 
-          <p style={{ margin: "0" }}>QAZA AGENCY</p>
+          <p className="m-0 regular-16 ">
+            QAZA AGENCY ZA KONSALTING I MENADŽMENT
+          </p>
         </div>
       </Link>
 
       <ul className="flex gap-4">
         <li>
           <Link href="/">
-            <div className={pathname === "#section1" ? "font-bold" : ""}>
-              Početna
-            </div>
+            <div className="hover:font-bold">POČETNA</div>
           </Link>
         </li>
         <li>
           <Link href="/services">
-            <div className={pathname === "#/services" ? "font-bold" : ""}>
-              Usluge
-            </div>
+            <div className="hover:font-bold">USLUGE</div>
           </Link>
         </li>
         <li>
           <Link href="/contact">
-            <div className={pathname === "/contact" ? "font-bold" : ""}>
-              Kontakt
-            </div>
+            <div className="hover:font-bold">KONTAKT</div>
           </Link>
         </li>
       </ul>
